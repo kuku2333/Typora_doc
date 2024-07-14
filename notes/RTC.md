@@ -33,3 +33,15 @@ RTC（Real Time Clock）是一个独立的BCD定时器\计数器。
   2. 配置这个RTC唤醒计数器使用这个RTC_SetWakeUpCounter()函数。
   3. 使能RTC唤醒使用这个RTC_WakeUpCmd()函数。
   4. 去读这RTC唤醒计数器寄存器，使用这个RTC_GetWakeUpCounter()函数。
+
+RTC_Weekday_Monday   
+RTC_Weekday_Tuesday  
+RTC_Weekday_Wednesday
+RTC_Weekday_Thursday 
+RTC_Weekday_Friday   
+RTC_Weekday_Saturday 
+RTC_Weekday_Sunday   
+
+![](.\pictures\RTC中断.png)
+
+- 
